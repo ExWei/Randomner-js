@@ -1,0 +1,21 @@
+{
+  "name": "Randomner",
+  "version": "0.0.1",
+  "description": "Random lib for JavaScript",
+  "main": "./lib/randomner.js",
+  "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ExWei/Randomner-js.git"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -r should"
+  },
+  "keywords": [
+    "random"
+  ],
+  "author": "Alex Schafer",
+  "license": "MIT"
+}

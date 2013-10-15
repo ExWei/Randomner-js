@@ -1,0 +1,1 @@
+Random lib for JavaScript

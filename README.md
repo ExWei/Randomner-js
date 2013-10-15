@@ -1,6 +1,11 @@
 Randomner
 =========
 Randomner is an library for Node.JS which provide powerful function for using random values.
+## Installation
+You can install Randomner-Js with the npm:
+```bash
+npm install randomner
+```
 
 ## Functions
 ### randInt(min, max)
@@ -48,7 +53,7 @@ __Example__
 var randomner = require('randomner');
 var randomInteger = randomner.randString(10, 42);
 ```
-### randColor()
+### randHexColor()
 Generates random HEX-code of color
 
 __Example__
@@ -56,5 +61,15 @@ __Example__
 ```js
 // Generates random HEX-code of color
 var randomner = require('randomner');
-var randomInteger = randomner.randColor();
+var randomInteger = randomner.randHexColor();
+```
+### randRgbColor()
+Generates random json of rgb-color
+
+__Example__
+
+```js
+// Generates random json of rgb-color
+var randomner = require('randomner');
+var randomInteger = randomner.randRgbColor();
 ```

@@ -1,11 +1,6 @@
 Randomner
 =========
 Randomner is an library for Node.JS which provide powerful function for using random values.
-## Installation
-You can install Randomner-Js with the npm:
-```bash
-npm install randomner
-```
 
 ## Functions
 ### randInt(min, max)

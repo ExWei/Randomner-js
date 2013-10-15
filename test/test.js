@@ -24,13 +24,26 @@ describe('randString test', function () {
     });
 });
 
-describe('randColor test', function () {
+describe('randHexColor test', function () {
     it('Should contain #', function () {
-        var randomColor = randomner.randColor();
+        var randomColor = randomner.randHexColor();
         randomColor.should.contain('#');
     });
     it('Length should be 7', function () {
-        var randomColor = randomner.randColor();
+        var randomColor = randomner.randHexColor();
         randomColor.length.should.equal(7);
+    });
+});
+
+describe('randRgbColor test', function () {
+    it('Should be Object', function () {
+        var randomColor = randomner.randRgbColor();
+        (typeof(randomColor)).should.equal("object");
+    });
+    it('Values not be undefined', function () {
+        var randomColor = randomner.randRgbColor();
+        randomColor["r"].should.not.equal("undefined");
+        randomColor["g"].should.not.equal("undefined");
+        randomColor["b"].should.not.equal("undefined");
     });
 });

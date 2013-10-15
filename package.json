@@ -1,5 +1,5 @@
 {
-  "name": "Randomner",
+  "name": "randomner",
   "version": "0.0.1",
   "description": "Random lib for JavaScript",
   "main": "./lib/randomner.js",

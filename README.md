@@ -73,3 +73,53 @@ __Example__
 var randomner = require('randomner');
 var randomInteger = randomner.randRgbColor();
 ```
+### randTld()
+// Generates random Top-level domain zone
+
+__Example__
+
+```js
+// Generates random Top-level domain zone
+var randomner = require('randomner');
+var randomInteger = randomner.randTld();
+```
+### randDomain({min, max})
+Generates random Top-level domain
+
+__Arguments__
+
+* min - An minimal length name of domain.
+* max - An maximum length name of domain.
+
+__Example__
+
+```js
+// Generates random Top-level domain
+var randomner = require('randomner');
+var randomInteger = randomner.randDomain({min: 5, max: 14});
+```
+### randEmail({min, max})
+Generates random email
+
+__Arguments__
+
+* min - An minimal length name of user and domain.
+* max - An maximum length name of user and domain.
+
+__Example__
+
+```js
+// Generates random email
+var randomner = require('randomner');
+var randomInteger = randomner.randEmail({min: 5, max: 14});
+```
+### randIpv4Ip()
+Generates random IPv4 address
+
+__Example__
+
+```js
+// Generates random IPv4 address
+var randomner = require('randomner');
+var randomInteger = randomner.randIpv4Ip();
+```

@@ -123,3 +123,43 @@ __Example__
 var randomner = require('randomner');
 var randomInteger = randomner.randIpv4Ip();
 ```
+### randTimeAmPm()
+Return pm or am
+
+__Example__
+
+```js
+// Return pm or am
+var randomner = require('randomner');
+var randomInteger = randomner.randTimeAmPm();
+```
+### randMonth()
+Generates random month
+
+__Example__
+
+```js
+// Generates random month
+var randomner = require('randomner');
+var randomInteger = randomner.randMonth();
+```
+### randTimeStamp()
+Generates random timestamp
+
+__Example__
+
+```js
+// Generates random timestamp
+var randomner = require('randomner');
+var randomInteger = randomner.randTimeStamp();
+```
+### randDateTime()
+Generates JavaScript object Date with random DateTime
+
+__Example__
+
+```js
+// Generates JavaScript object Date with random DateTime
+var randomner = require('randomner');
+var randomInteger = randomner.randDateTime();
+```

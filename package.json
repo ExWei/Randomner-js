@@ -1,6 +1,6 @@
 {
   "name": "randomner",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Random lib for JavaScript",
   "main": "./lib/randomner.js",
   "repository" : {

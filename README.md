@@ -163,3 +163,24 @@ __Example__
 var randomner = require('randomner');
 var randomInteger = randomner.randDateTime();
 ```
+
+### randCoordinates()
+Generates random coordinates
+
+__Example__
+
+```js
+// Generates random coordinates
+var randomner = require('randomner');
+var randomInteger = randomner.randCoordinates();
+```
+### randCountry()
+Generates random country
+
+__Example__
+
+```js
+// Generates random country
+var randomner = require('randomner');
+var randomInteger = randomner.randCountry();
+```

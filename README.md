@@ -36,7 +36,7 @@ __Example__
 ```js
 // Generates random float between 2.10 and 3.14
 var randomner = require('randomner');
-var randomInteger = randomner.randInt(2.10, 3.14);
+var randomFloat = randomner.randInt(2.10, 3.14);
 ```
 ### randString(min, max)
 Generates random string with length between min and max
@@ -51,7 +51,7 @@ __Example__
 ```js
 // Generates random string with length between 10 and 42
 var randomner = require('randomner');
-var randomInteger = randomner.randString(10, 42);
+var randomString = randomner.randString(10, 42);
 ```
 ### randHexColor()
 Generates random HEX-code of color
@@ -61,7 +61,7 @@ __Example__
 ```js
 // Generates random HEX-code of color
 var randomner = require('randomner');
-var randomInteger = randomner.randHexColor();
+var randomHEXColor = randomner.randHexColor();
 ```
 ### randRgbColor()
 Generates random json of rgb-color
@@ -71,7 +71,7 @@ __Example__
 ```js
 // Generates random json of rgb-color
 var randomner = require('randomner');
-var randomInteger = randomner.randRgbColor();
+var randomRgbColor = randomner.randRgbColor();
 ```
 ### randTld()
 // Generates random Top-level domain zone
@@ -81,7 +81,7 @@ __Example__
 ```js
 // Generates random Top-level domain zone
 var randomner = require('randomner');
-var randomInteger = randomner.randTld();
+var randomZone = randomner.randTld();
 ```
 ### randDomain({min, max})
 Generates random Top-level domain
@@ -96,7 +96,7 @@ __Example__
 ```js
 // Generates random Top-level domain
 var randomner = require('randomner');
-var randomInteger = randomner.randDomain({min: 5, max: 14});
+var randomDomain = randomner.randDomain({min: 5, max: 14});
 ```
 ### randEmail({min, max})
 Generates random email
@@ -111,7 +111,7 @@ __Example__
 ```js
 // Generates random email
 var randomner = require('randomner');
-var randomInteger = randomner.randEmail({min: 5, max: 14});
+var randomEmail = randomner.randEmail({min: 5, max: 14});
 ```
 ### randIpv4Ip()
 Generates random IPv4 address
@@ -121,7 +121,7 @@ __Example__
 ```js
 // Generates random IPv4 address
 var randomner = require('randomner');
-var randomInteger = randomner.randIpv4Ip();
+var randomIPv4 = randomner.randIpv4Ip();
 ```
 ### randTimeAmPm()
 Return pm or am
@@ -131,7 +131,7 @@ __Example__
 ```js
 // Return pm or am
 var randomner = require('randomner');
-var randomInteger = randomner.randTimeAmPm();
+var randomTime = randomner.randTimeAmPm();
 ```
 ### randMonth()
 Generates random month
@@ -141,7 +141,7 @@ __Example__
 ```js
 // Generates random month
 var randomner = require('randomner');
-var randomInteger = randomner.randMonth();
+var randomMonth = randomner.randMonth();
 ```
 ### randTimeStamp()
 Generates random timestamp
@@ -151,7 +151,7 @@ __Example__
 ```js
 // Generates random timestamp
 var randomner = require('randomner');
-var randomInteger = randomner.randTimeStamp();
+var randomTimestamp = randomner.randTimeStamp();
 ```
 ### randDateTime()
 Generates JavaScript object Date with random DateTime
@@ -161,7 +161,7 @@ __Example__
 ```js
 // Generates JavaScript object Date with random DateTime
 var randomner = require('randomner');
-var randomInteger = randomner.randDateTime();
+var randomDatetime = randomner.randDateTime();
 ```
 
 ### randCoordinates()
@@ -172,7 +172,7 @@ __Example__
 ```js
 // Generates random coordinates
 var randomner = require('randomner');
-var randomInteger = randomner.randCoordinates();
+var randomCoordinates = randomner.randCoordinates();
 ```
 ### randCountry()
 Generates random country
@@ -182,7 +182,7 @@ __Example__
 ```js
 // Generates random country
 var randomner = require('randomner');
-var randomInteger = randomner.randCountry();
+var randomCountry = randomner.randCountry();
 ```
 ### randName(gender)
 Generates random name
@@ -194,4 +194,15 @@ __Example__
 // Generates random name
 var randomner = require('randomner');
 var randomName = randomner.randName();
+```
+### randElement(array)
+Returns random element from array
+
+__Example__
+
+```js
+// Returns random element from array
+var randomner = require('randomner');
+var array = ["a", "b", "c"];
+var randomElement = randomner.randElement(array);
 ```

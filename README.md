@@ -184,3 +184,14 @@ __Example__
 var randomner = require('randomner');
 var randomInteger = randomner.randCountry();
 ```
+### randName(gender)
+Generates random name
+If gender not presented - it will be selected randomly.
+
+__Example__
+
+```js
+// Generates random name
+var randomner = require('randomner');
+var randomName = randomner.randName();
+```

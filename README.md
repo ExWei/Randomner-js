@@ -206,3 +206,13 @@ var randomner = require('randomner');
 var array = ["a", "b", "c"];
 var randomElement = randomner.randElement(array);
 ```
+### randBool()
+Returns true or false
+
+__Example__
+
+```js
+// Returns true or false
+var randomner = require('randomner');
+var randomBool = randomner.randBool();
+```

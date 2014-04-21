@@ -216,3 +216,13 @@ __Example__
 var randomner = require('randomner');
 var randomBool = randomner.randBool();
 ```
+### randCharacter()
+Returns random character
+
+__Example__
+
+```js
+// Returns random character
+var randomner = require('randomner');
+var randomCharacter = randomner.randCharacter();
+```

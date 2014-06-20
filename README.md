@@ -9,7 +9,7 @@ npm install randomner
 
 ## Functions
 ### randInt(min, max)
-Generates random integer between min and max
+Generates random integer between min and max.
 
 __Arguments__
 
@@ -24,7 +24,7 @@ var randomner = require('randomner');
 var randomInteger = randomner.randInt(5, 10);
 ```
 ### randFloat(min, max)
-Generates random float between min and max
+Generates random float between min and max.
 
 __Arguments__
 
@@ -39,7 +39,7 @@ var randomner = require('randomner');
 var randomFloat = randomner.randInt(2.10, 3.14);
 ```
 ### randString(min, max)
-Generates random string with length between min and max
+Generates random string with length between min and max.
 
 __Arguments__
 
@@ -54,7 +54,7 @@ var randomner = require('randomner');
 var randomString = randomner.randString(10, 42);
 ```
 ### randHexColor()
-Generates random HEX-code of color
+Generates random HEX-code of color.
 
 __Example__
 
@@ -64,7 +64,7 @@ var randomner = require('randomner');
 var randomHEXColor = randomner.randHexColor();
 ```
 ### randRgbColor()
-Generates random json of rgb-color
+Generates random json of rgb-color.
 
 __Example__
 
@@ -74,7 +74,7 @@ var randomner = require('randomner');
 var randomRgbColor = randomner.randRgbColor();
 ```
 ### randTld()
-// Generates random Top-level domain zone
+// Generates random Top-level domain zone.
 
 __Example__
 
@@ -84,7 +84,7 @@ var randomner = require('randomner');
 var randomZone = randomner.randTld();
 ```
 ### randDomain({min, max})
-Generates random Top-level domain
+Generates random Top-level domain.
 
 __Arguments__
 
@@ -99,7 +99,7 @@ var randomner = require('randomner');
 var randomDomain = randomner.randDomain({min: 5, max: 14});
 ```
 ### randEmail({min, max})
-Generates random email
+Generates random email.
 
 __Arguments__
 
@@ -114,7 +114,7 @@ var randomner = require('randomner');
 var randomEmail = randomner.randEmail({min: 5, max: 14});
 ```
 ### randIpv4Ip()
-Generates random IPv4 address
+Generates random IPv4 address.
 
 __Example__
 
@@ -124,7 +124,7 @@ var randomner = require('randomner');
 var randomIPv4 = randomner.randIpv4Ip();
 ```
 ### randTimeAmPm()
-Return pm or am
+Return pm or am.
 
 __Example__
 
@@ -134,7 +134,7 @@ var randomner = require('randomner');
 var randomTime = randomner.randTimeAmPm();
 ```
 ### randMonth()
-Generates random month
+Generates random month.
 
 __Example__
 
@@ -144,7 +144,7 @@ var randomner = require('randomner');
 var randomMonth = randomner.randMonth();
 ```
 ### randTimeStamp()
-Generates random timestamp
+Generates random timestamp.
 
 __Example__
 
@@ -154,7 +154,7 @@ var randomner = require('randomner');
 var randomTimestamp = randomner.randTimeStamp();
 ```
 ### randDateTime()
-Generates JavaScript object Date with random DateTime
+Generates JavaScript object Date with random DateTime.
 
 __Example__
 
@@ -165,7 +165,7 @@ var randomDatetime = randomner.randDateTime();
 ```
 
 ### randCoordinates()
-Generates random coordinates
+Generates random coordinates.
 
 __Example__
 
@@ -175,7 +175,7 @@ var randomner = require('randomner');
 var randomCoordinates = randomner.randCoordinates();
 ```
 ### randCountry()
-Generates random country
+Generates random country.
 
 __Example__
 
@@ -185,7 +185,7 @@ var randomner = require('randomner');
 var randomCountry = randomner.randCountry();
 ```
 ### randName(gender)
-Generates random name
+Generates random name.
 If gender not presented - it will be selected randomly.
 
 __Example__
@@ -196,7 +196,7 @@ var randomner = require('randomner');
 var randomName = randomner.randName();
 ```
 ### randElement(array)
-Returns random element from array
+Returns random element from array.
 
 __Example__
 
@@ -207,7 +207,7 @@ var array = ["a", "b", "c"];
 var randomElement = randomner.randElement(array);
 ```
 ### randBool()
-Returns true or false
+Returns true or false.
 
 __Example__
 
@@ -217,7 +217,7 @@ var randomner = require('randomner');
 var randomBool = randomner.randBool();
 ```
 ### randCharacter()
-Returns random character
+Returns random character.
 
 __Example__
 
